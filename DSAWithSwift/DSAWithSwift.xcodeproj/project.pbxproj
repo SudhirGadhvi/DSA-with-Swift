@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A16FE072BA426C1008B74F4 /* JewelsAndStones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A16FE062BA426C1008B74F4 /* JewelsAndStones.swift */; };
+		8A16FE082BA426C1008B74F4 /* JewelsAndStones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A16FE062BA426C1008B74F4 /* JewelsAndStones.swift */; };
+		8A16FE0A2BA428D2008B74F4 /* JewelsAndStonesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A16FE092BA428D2008B74F4 /* JewelsAndStonesTests.swift */; };
 		8AF2AF6F2BA31DD7005C3064 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF2AF6E2BA31DD7005C3064 /* AppDelegate.swift */; };
 		8AF2AF712BA31DD7005C3064 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF2AF702BA31DD7005C3064 /* SceneDelegate.swift */; };
 		8AF2AF762BA31DD7005C3064 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AF2AF742BA31DD7005C3064 /* Main.storyboard */; };
@@ -14,8 +17,6 @@
 		8AF2AF7B2BA31DD8005C3064 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AF2AF792BA31DD8005C3064 /* LaunchScreen.storyboard */; };
 		8AF2AFA12BA31EA6005C3064 /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF2AFA02BA31EA6005C3064 /* TwoSum.swift */; };
 		8AF2AFA22BA31EA6005C3064 /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF2AFA02BA31EA6005C3064 /* TwoSum.swift */; };
-		8AF2AFA42BA31F44005C3064 /* Documentation.docc in Sources */ = {isa = PBXBuildFile; fileRef = 8AF2AFA32BA31F44005C3064 /* Documentation.docc */; };
-		8AF2AFA52BA31F44005C3064 /* Documentation.docc in Sources */ = {isa = PBXBuildFile; fileRef = 8AF2AFA32BA31F44005C3064 /* Documentation.docc */; };
 		8AF2AFA82BA320AF005C3064 /* TwoSumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF2AFA62BA320AF005C3064 /* TwoSumTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +31,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8A16FE062BA426C1008B74F4 /* JewelsAndStones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JewelsAndStones.swift; sourceTree = "<group>"; };
+		8A16FE092BA428D2008B74F4 /* JewelsAndStonesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JewelsAndStonesTests.swift; sourceTree = "<group>"; };
 		8AF2AF6B2BA31DD7005C3064 /* DSAWithSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DSAWithSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AF2AF6E2BA31DD7005C3064 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8AF2AF702BA31DD7005C3064 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,7 +42,6 @@
 		8AF2AF7C2BA31DD8005C3064 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8AF2AF812BA31DD8005C3064 /* DSAWithSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DSAWithSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AF2AFA02BA31EA6005C3064 /* TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
-		8AF2AFA32BA31F44005C3064 /* Documentation.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Documentation.docc; sourceTree = "<group>"; };
 		8AF2AFA62BA320AF005C3064 /* TwoSumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSumTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -82,7 +84,6 @@
 		8AF2AF6D2BA31DD7005C3064 /* DSAWithSwift */ = {
 			isa = PBXGroup;
 			children = (
-				8AF2AFA32BA31F44005C3064 /* Documentation.docc */,
 				8AF2AF9F2BA31E8F005C3064 /* Array */,
 				8AF2AF9E2BA31DF1005C3064 /* Main */,
 				8AF2AF7C2BA31DD8005C3064 /* Info.plist */,
@@ -114,6 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				8AF2AFA02BA31EA6005C3064 /* TwoSum.swift */,
+				8A16FE062BA426C1008B74F4 /* JewelsAndStones.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -122,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				8AF2AFA62BA320AF005C3064 /* TwoSumTests.swift */,
+				8A16FE092BA428D2008B74F4 /* JewelsAndStonesTests.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -227,10 +230,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A16FE072BA426C1008B74F4 /* JewelsAndStones.swift in Sources */,
 				8AF2AF6F2BA31DD7005C3064 /* AppDelegate.swift in Sources */,
 				8AF2AF712BA31DD7005C3064 /* SceneDelegate.swift in Sources */,
 				8AF2AFA12BA31EA6005C3064 /* TwoSum.swift in Sources */,
-				8AF2AFA42BA31F44005C3064 /* Documentation.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,8 +242,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8AF2AFA22BA31EA6005C3064 /* TwoSum.swift in Sources */,
-				8AF2AFA52BA31F44005C3064 /* Documentation.docc in Sources */,
+				8A16FE082BA426C1008B74F4 /* JewelsAndStones.swift in Sources */,
 				8AF2AFA82BA320AF005C3064 /* TwoSumTests.swift in Sources */,
+				8A16FE0A2BA428D2008B74F4 /* JewelsAndStonesTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

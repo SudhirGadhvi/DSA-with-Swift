@@ -25,7 +25,7 @@ class TwoSum {
     ///
     ///    The space complexity of the TwoSum algorithm is O(n), where n is the number of elements in the array. This is because we store each element of the array along with its index in the hash table, resulting in the space usage proportional to the size of the input array.
     ///
-    ///Reference: [Tow Sum - LeetCode](https://leetcode.com/problems/two-sum)
+    ///Reference: [LeetCode: Tow Sum](https://leetcode.com/problems/two-sum)
     ///
     
     func twoSum(_ nums: [Int], _ target: Int) -> [Int]? {
