@@ -10,14 +10,17 @@ import Foundation
 class SmallerNumbersThanCurrent {
     
     /// Function to count the number of smaller numbers than each element in the input array.
-        ///
-        /// - Parameters:
-        ///   - nums: An array of integers.
-        /// - Returns: An array of integers representing the count of smaller numbers than each element in the input array.
-        ///
-        /// - Time Complexity: O(n^2), where n is the length of the input array.
-        /// - Space Complexity: O(n), where n is the length of the input array.
-        ///
+    ///
+    /// - Parameters:
+    ///   - nums: An array of integers.
+    /// - Returns: An array of integers representing the count of smaller numbers than each element in the input array.
+    ///
+    /// - Time Complexity: O(n^2), where n is the length of the input array.
+    /// - Space Complexity: O(n), where n is the length of the input array.
+    ///
+    ///Reference: [LeetCode: How Many Numbers Are Smaller Than the Current Number ](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number)
+    ///
+    
     func smallerNumbersThanCurrent(_ nums: [Int]) -> [Int] {
         
         /// Initialize an array to store counts of each number in the input array.
