@@ -10,6 +10,9 @@
 		8A16FE072BA426C1008B74F4 /* JewelsAndStones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A16FE062BA426C1008B74F4 /* JewelsAndStones.swift */; };
 		8A16FE082BA426C1008B74F4 /* JewelsAndStones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A16FE062BA426C1008B74F4 /* JewelsAndStones.swift */; };
 		8A16FE0A2BA428D2008B74F4 /* JewelsAndStonesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A16FE092BA428D2008B74F4 /* JewelsAndStonesTests.swift */; };
+		8A16FE0C2BA44E45008B74F4 /* SmallerNumbersThanCurrent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A16FE0B2BA44E45008B74F4 /* SmallerNumbersThanCurrent.swift */; };
+		8A16FE0D2BA44E45008B74F4 /* SmallerNumbersThanCurrent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A16FE0B2BA44E45008B74F4 /* SmallerNumbersThanCurrent.swift */; };
+		8A16FE112BA454D1008B74F4 /* SmallerNumbersThanCurrentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A16FE102BA454D1008B74F4 /* SmallerNumbersThanCurrentTests.swift */; };
 		8AF2AF6F2BA31DD7005C3064 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF2AF6E2BA31DD7005C3064 /* AppDelegate.swift */; };
 		8AF2AF712BA31DD7005C3064 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF2AF702BA31DD7005C3064 /* SceneDelegate.swift */; };
 		8AF2AF762BA31DD7005C3064 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AF2AF742BA31DD7005C3064 /* Main.storyboard */; };
@@ -33,6 +36,8 @@
 /* Begin PBXFileReference section */
 		8A16FE062BA426C1008B74F4 /* JewelsAndStones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JewelsAndStones.swift; sourceTree = "<group>"; };
 		8A16FE092BA428D2008B74F4 /* JewelsAndStonesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JewelsAndStonesTests.swift; sourceTree = "<group>"; };
+		8A16FE0B2BA44E45008B74F4 /* SmallerNumbersThanCurrent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallerNumbersThanCurrent.swift; sourceTree = "<group>"; };
+		8A16FE102BA454D1008B74F4 /* SmallerNumbersThanCurrentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallerNumbersThanCurrentTests.swift; sourceTree = "<group>"; };
 		8AF2AF6B2BA31DD7005C3064 /* DSAWithSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DSAWithSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AF2AF6E2BA31DD7005C3064 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8AF2AF702BA31DD7005C3064 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -116,6 +121,7 @@
 			children = (
 				8AF2AFA02BA31EA6005C3064 /* TwoSum.swift */,
 				8A16FE062BA426C1008B74F4 /* JewelsAndStones.swift */,
+				8A16FE0B2BA44E45008B74F4 /* SmallerNumbersThanCurrent.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -125,6 +131,7 @@
 			children = (
 				8AF2AFA62BA320AF005C3064 /* TwoSumTests.swift */,
 				8A16FE092BA428D2008B74F4 /* JewelsAndStonesTests.swift */,
+				8A16FE102BA454D1008B74F4 /* SmallerNumbersThanCurrentTests.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -230,6 +237,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A16FE0C2BA44E45008B74F4 /* SmallerNumbersThanCurrent.swift in Sources */,
 				8A16FE072BA426C1008B74F4 /* JewelsAndStones.swift in Sources */,
 				8AF2AF6F2BA31DD7005C3064 /* AppDelegate.swift in Sources */,
 				8AF2AF712BA31DD7005C3064 /* SceneDelegate.swift in Sources */,
@@ -241,6 +249,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A16FE112BA454D1008B74F4 /* SmallerNumbersThanCurrentTests.swift in Sources */,
+				8A16FE0D2BA44E45008B74F4 /* SmallerNumbersThanCurrent.swift in Sources */,
 				8AF2AFA22BA31EA6005C3064 /* TwoSum.swift in Sources */,
 				8A16FE082BA426C1008B74F4 /* JewelsAndStones.swift in Sources */,
 				8AF2AFA82BA320AF005C3064 /* TwoSumTests.swift in Sources */,
