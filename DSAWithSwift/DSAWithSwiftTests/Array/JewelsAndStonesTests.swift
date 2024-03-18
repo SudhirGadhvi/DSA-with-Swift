@@ -111,7 +111,6 @@ final class JewelsAndStonesTests: XCTestCase {
         // Arrange
         let jewels = "aA"
         let stones = "aAAbbb"
-        let expectedCount = 3
         
         // Act
         /// Record the start time of the test
